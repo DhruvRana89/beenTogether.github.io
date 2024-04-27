@@ -1,3 +1,4 @@
+
 const hamburger = document.querySelector('.header_hamburger');
 
 const header = document.querySelector('.header');
@@ -7,7 +8,6 @@ hamburger.addEventListener("click", function () {
     header.classList.toggle('active');
 
 });
-
 
 
 
