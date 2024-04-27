@@ -35,7 +35,7 @@ const dsec= document.getElementById("sec");
 
 
 function getCurrentTime(){
-    const date = new Date("4/7/2019 00:00:00");
+    const date = new Date("5/17/2023 00:00:00");
 const ms =  Date.now()-date.getTime();
 
 const dayM= ms/(24*3600*1000);
@@ -55,7 +55,7 @@ const dayM= ms/(24*3600*1000);
 let cDate = new Date();
 let cMonth = cDate.getMonth();
 let cYear = cDate.getFullYear();
-let timeC=  dateRange(2019,4,cYear,cMonth);
+let timeC=  dateRange(2023,5,cYear,cMonth);
 let tempDay = cDate.getDate() ;
 
 // year count
