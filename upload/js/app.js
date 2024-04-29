@@ -9,9 +9,6 @@ hamburger.addEventListener("click", function () {
 
 });
 
-
-
-
 // time
 
 function abso(a){
